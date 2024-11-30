@@ -10,9 +10,10 @@ img {
 
 header .navbar {
     background-color: rgb(14, 14, 14);
+    width: 100%;
 }
 
-.lts{
+.lts {
     list-style-type: none;
     border: none;
     color: #ffffff;
@@ -55,11 +56,9 @@ header h2 {
 
 @media only screen and (max-width:920px) {
     header h2 {
-        font-size: 60px;
+        font-size: 40px;
     }
 }
-
-
 /* sec1 */
 
 .sec1 {
@@ -155,8 +154,6 @@ header h2 {
     margin-top: 70px;
     color: rgb(219, 219, 219);
 }
-
-
 /* sec2 */
 
 .sec2 {
@@ -252,14 +249,13 @@ header h2 {
 .sec2 h2 {
     color: white;
 }
-
-
 /* sec3 */
 
 .sec3 {
     padding: 100px;
     background-color: rgb(29, 29, 29);
 }
+
 @media only screen and (max-width:1100px) {
     .sec3 {
         padding: 80px;
@@ -307,6 +303,7 @@ header h2 {
         padding: 10px;
     }
 }
+
 .sec3bg1 {
     background-image: url(../img/1V4LbZZiNmUZgNUcafNvvQafS0.avif);
     height: 400px;
@@ -317,6 +314,7 @@ header h2 {
 .sec3bg2 {
     background-image: url(../img/nhxu2xYSNhwyUKiRHEO8Y5GMAhM.avif);
     height: 400px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -342,8 +340,6 @@ header h2 {
 .sec3 h3 {
     color: white;
 }
-
-
 /* sec4 */
 
 .sec4 {
@@ -351,6 +347,7 @@ header h2 {
     background-color: rgb(29, 29, 29);
     color: white;
 }
+
 @media only screen and (max-width:1100px) {
     .sec4 {
         padding: 80px;
@@ -397,19 +394,20 @@ header h2 {
     .sec4 {
         padding: 10px;
     }
+}
+
 .sec4bg1 {
     margin: 10px;
     background-image: url(../img/tHTTEOLX1fKmGvChiLOyTIg5Hqw.avif);
     width: 150px;
 }
-
-
 /* sec5 */
 
 .sec5 {
     padding: 100px;
     background-color: rgb(14, 14, 14);
 }
+
 @media only screen and (max-width:1100px) {
     .sec5 {
         padding: 80px;
@@ -456,12 +454,11 @@ header h2 {
     .sec5 {
         padding: 10px;
     }
+}
 
 .sec5 h1 {
     color: white;
 }
-
-
 /* footer */
 
 footer {
@@ -516,10 +513,11 @@ footer {
     footer {
         padding: 10px;
     }
+}
 /* 
 .footerimg {
-    background-image: url(../img/j2l37DNfKJtYYK4TxUFxRad5W48.avif);
-    border-radius: 20px;
+background-image: url(../img/j2l37DNfKJtYYK4TxUFxRad5W48.avif);
+border-radius: 20px;
 } */
 
 footer h4 {
@@ -539,8 +537,6 @@ footer p {
     line-height: 30px;
     font-size: 15px;
 }
-
-
 /* about */
 
 .absec1 {
@@ -548,55 +544,67 @@ footer p {
     background-color: rgb(0, 0, 0);
     color: white;
 }
+
 @media only screen and (max-width:1100px) {
-    .absec1  {
+    .absec1 {
         padding: 80px;
     }
 }
 
 @media only screen and (max-width:1000px) {
-    .absec1  {
+    .absec1 {
         padding: 70px;
     }
 }
 
 @media only screen and (max-width:900px) {
-    .absec1  {
+    .absec1 {
         padding: 60px;
     }
 }
 
 @media only screen and (max-width:800px) {
-    .absec1  {
+    .absec1 {
         padding: 50px;
     }
 }
 
 @media only screen and (max-width:700px) {
-    .absec1  {
+    .absec1 {
         padding: 40px;
     }
 }
 
 @media only screen and (max-width:600px) {
-    .absec1  {
+    .absec1 {
         padding: 30px;
+    }
+    .h1hs{
+        width: 45px;
+    }
+}
+@media only screen and (max-width:530px) {
+    .absec1 h1{
+        width: 45px;
     }
 }
 
 @media only screen and (max-width:500px) {
-    .absec1  {
+    .absec1 {
         padding: 20px;
     }
 }
 
 @media only screen and (max-width:400px) {
-    .absec1  {
+    .absec1 {
         padding: 10px;
     }
+}
+
 .absec1img {
     background-image: url(../img/BTAzEd4ywspaYLEtVV9stsGlmbk.avif);
-}
+    width: 500px;
+    height: 400px;}
 
 .absec1 h1 {
     font-size: 60px;
@@ -606,27 +614,26 @@ footer p {
     font-size: 30px;
 }
 
-
-
 .educationSec1 {
     color: rgb(212, 212, 212);
     padding: 100px;
     background-color: black;
 }
+
 @media only screen and (max-width:1100px) {
-    .educationSec1  {
+    .educationSec1 {
         padding: 80px;
     }
 }
 
 @media only screen and (max-width:1000px) {
-    .educationSec1  {
+    .educationSec1 {
         padding: 70px;
     }
 }
 
 @media only screen and (max-width:900px) {
-    .educationSec1  {
+    .educationSec1 {
         padding: 60px;
     }
 }
@@ -638,28 +645,30 @@ footer p {
 }
 
 @media only screen and (max-width:700px) {
-    .educationSec1  {
+    .educationSec1 {
         padding: 40px;
     }
 }
 
 @media only screen and (max-width:600px) {
-    .educationSec1  {
+    .educationSec1 {
         padding: 30px;
     }
 }
 
 @media only screen and (max-width:500px) {
-    .educationSec1  {
+    .educationSec1 {
         padding: 20px;
     }
 }
 
 @media only screen and (max-width:400px) {
-    .educationSec1  {
+    .educationSec1 {
         padding: 10px;
     }
-.rm{
+}
+
+.rm {
     color: rgb(159, 33, 33);
     font-size: 50px;
     font-family: sans-serif;
@@ -670,20 +679,21 @@ footer p {
     background-color: rgb(0, 0, 0);
     color: rgb(212, 212, 212);
 }
+
 @media only screen and (max-width:1100px) {
-    .educationSec2  {
+    .educationSec2 {
         padding: 80px;
     }
 }
 
 @media only screen and (max-width:1000px) {
-    .educationSec2  {
+    .educationSec2 {
         padding: 70px;
     }
 }
 
 @media only screen and (max-width:900px) {
-    .educationSec2  {
+    .educationSec2 {
         padding: 60px;
     }
 }
@@ -695,32 +705,32 @@ footer p {
 }
 
 @media only screen and (max-width:700px) {
-    .educationSec2  {
+    .educationSec2 {
         padding: 40px;
     }
 }
 
 @media only screen and (max-width:600px) {
-    .educationSec2  {
+    .educationSec2 {
         padding: 30px;
     }
 }
 
 @media only screen and (max-width:500px) {
-    .educationSec2  {
+    .educationSec2 {
         padding: 20px;
     }
 }
 
 @media only screen and (max-width:400px) {
-    .educationSec2  {
+    .educationSec2 {
         padding: 10px;
     }
+}
+
 .educationSec2 h2 {
     color: rgb(159, 33, 33);
 }
-
-
 /* Blog */
 
 .Blogsec1 {
@@ -728,20 +738,21 @@ footer p {
     padding: 100px;
     background-color: black;
 }
+
 @media only screen and (max-width:1100px) {
-    .Blogsec1  {
+    .Blogsec1 {
         padding: 80px;
     }
 }
 
 @media only screen and (max-width:1000px) {
-    .Blogsec1  {
+    .Blogsec1 {
         padding: 70px;
     }
 }
 
 @media only screen and (max-width:900px) {
-    .Blogsec1  {
+    .Blogsec1 {
         padding: 60px;
     }
 }
@@ -753,27 +764,29 @@ footer p {
 }
 
 @media only screen and (max-width:700px) {
-    .Blogsec1  {
+    .Blogsec1 {
         padding: 40px;
     }
 }
 
 @media only screen and (max-width:600px) {
-    .Blogsec1  {
+    .Blogsec1 {
         padding: 30px;
     }
 }
 
 @media only screen and (max-width:500px) {
-    .Blogsec1  {
+    .Blogsec1 {
         padding: 20px;
     }
 }
 
 @media only screen and (max-width:400px) {
-    .Blogsec1  {
+    .Blogsec1 {
         padding: 10px;
     }
+}
+
 .Blogsec1 h2 {
     font-size: 50px;
 }
@@ -787,20 +800,21 @@ footer p {
     color: white;
     height: 100%;
 }
+
 @media only screen and (max-width:1100px) {
-    .Blogsec2  {
+    .Blogsec2 {
         padding: 80px;
     }
 }
 
 @media only screen and (max-width:1000px) {
-    .Blogsec2  {
+    .Blogsec2 {
         padding: 70px;
     }
 }
 
 @media only screen and (max-width:900px) {
-    .Blogsec2  {
+    .Blogsec2 {
         padding: 60px;
     }
 }
@@ -812,27 +826,29 @@ footer p {
 }
 
 @media only screen and (max-width:700px) {
-    .Blogsec2  {
+    .Blogsec2 {
         padding: 40px;
     }
 }
 
 @media only screen and (max-width:600px) {
-    .Blogsec2  {
+    .Blogsec2 {
         padding: 30px;
     }
 }
 
 @media only screen and (max-width:500px) {
-    .Blogsec2  {
+    .Blogsec2 {
         padding: 20px;
     }
 }
 
 @media only screen and (max-width:400px) {
-    .Blogsec2  {
+    .Blogsec2 {
         padding: 10px;
     }
+}
+
 .blogsec2 h5 {
     color: rgb(154, 33, 33);
 }
@@ -840,8 +856,6 @@ footer p {
 .blogsec2 img {
     height: 350px;
 }
-
-
 /* Contact  */
 
 .contsec1 {
@@ -849,20 +863,21 @@ footer p {
     background-color: black;
     color: white;
 }
+
 @media only screen and (max-width:1100px) {
-    .contsec1  {
+    .contsec1 {
         padding: 80px;
     }
 }
 
 @media only screen and (max-width:1000px) {
-    .contsec1  {
+    .contsec1 {
         padding: 70px;
     }
 }
 
 @media only screen and (max-width:900px) {
-    .contsec1  {
+    .contsec1 {
         padding: 60px;
     }
 }
@@ -874,27 +889,29 @@ footer p {
 }
 
 @media only screen and (max-width:700px) {
-    .contsec1  {
+    .contsec1 {
         padding: 40px;
     }
 }
 
 @media only screen and (max-width:600px) {
-    .contsec1  {
+    .contsec1 {
         padding: 30px;
     }
 }
 
 @media only screen and (max-width:500px) {
-    .contsec1  {
+    .contsec1 {
         padding: 20px;
     }
 }
 
 @media only screen and (max-width:400px) {
-    .contsec1  {
+    .contsec1 {
         padding: 10px;
     }
+}
+
 .contsec1 span {
     color: rgb(219, 219, 219);
 }
@@ -905,11 +922,11 @@ footer p {
     padding: 25px !important;
 }
 
-.bb{
+.bb {
     font-size: 30px;
 }
 
-.contsec1 .cfm{
+.contsec1 .cfm {
     color: rgb(159, 33, 33);
     font-family: sans-serif serif;
     font-size: 50px;
